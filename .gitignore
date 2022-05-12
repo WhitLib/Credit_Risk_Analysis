@@ -26,6 +26,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# Module 17 Practice Folder
+Module_Practice/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
