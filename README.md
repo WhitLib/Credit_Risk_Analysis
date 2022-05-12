@@ -35,5 +35,16 @@ In the combination sampling algorithm, the balanced accuracy score was **65.5%**
 
 <p align=center> <img src="https://user-images.githubusercontent.com/95978097/167981961-1aa7f0f0-ae19-445b-8ac2-7344af715ae3.png"></p>
 
+### Ensemble Learners
+
+#### Balanced Random Forest Classifier
+
+In this algorithm, the balanced accuracy score equated to **65.70%**, the high_risk precision score increased to **59%** using this model, a decreased high_risk recall score of **32%**, that resulted in a higher F1 score of **41%**.
+
+<p align=center> <img src="https://user-images.githubusercontent.com/95978097/167982872-0a7a1b56-aa80-41e1-9aee-f2a9538b9628.png"></p>
+
+#### Easy Ensemble AdaBoost Classifier
+
+Finally, in the Easy Ensemble AdaBoost Classifier, the balanced accuracy score was the highest in this model at **92.9%**.  The high_risk precision score was **7%**, recall was **92%** (comparably **93%** for low_risk), and the F1 score was **13%**.
 ## Summary
 
