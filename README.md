@@ -25,7 +25,7 @@ In the SMOTE oversampling algorithm, the calculated balanced accuracy score was 
 
 ### Undersampling
 
-When using the undersampling algorithm, the balanced accuracy score equated to **54.43%**. The high_risk precision score was again was **1%**, the recall score was **69%**, with a low F1 of **1%**.
+When using the undersampling algorithm, the balanced accuracy score equated to **54.43%**. The high_risk precision score again was **1%**, the recall score was **69%**, with a low F1 of **1%**.
 
 <p align=center> <img src="https://user-images.githubusercontent.com/95978097/167981594-6cfc11bb-0b97-4136-a4b7-837cf9f6b9eb.png"></p>
 
@@ -46,5 +46,16 @@ In this algorithm, the balanced accuracy score equated to **65.70%**, the high_r
 #### Easy Ensemble AdaBoost Classifier
 
 Finally, in the Easy Ensemble AdaBoost Classifier, the balanced accuracy score was the highest in this model at **92.9%**.  The high_risk precision score was **7%**, recall was **92%** (comparably **93%** for low_risk), and the F1 score was **13%**.
+
+<p align=center> <img src="https://user-images.githubusercontent.com/95978097/167984921-f945a366-821b-4615-a300-28255b3e64a6.png"></p>
+
 ## Summary
+
+Of each of the algorithms tested, all the models derived weak results especially when testing for precision in high_risk credit. However, the ensemble models showed a much higher success rate especially in high risk sensitivity scores.
+
+Specifically, the EasyEnsembleClassifier model showed a recall of 92% which essentially predicts all high_risk credit risks. Conversely, with a low precision, low_risk credit risks are erroneously detected at a high rate; thus, resulting in the bank potentially missing out on revenue opportunities. 
+
+Overall, for those reasons, it is **not** recommended that the bank consider any of these models to seriously predict credit risk.
+
+
 
